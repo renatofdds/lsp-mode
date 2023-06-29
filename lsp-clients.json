@@ -70,6 +70,14 @@
     "debugger": "Not available"
   },
   {
+    "name": "credo",
+    "full-name": "Credo",
+    "server-name": "credo-ls",
+    "server-url": "https://github.com/elixir-tools/credo-language-server",
+    "installation-url": "https://github.com/elixir-tools/credo-language-server#installation",
+    "debugger": "Not available"
+  },
+  {
     "name": "csharp-ls",
     "common-group-name": "csharp",
     "full-name": "C# (csharp-ls)",
@@ -748,6 +756,14 @@
     "server-url": "https://github.com/rust-lang/rls",
     "installation-url": "https://github.com/rust-lang/rls",
     "debugger": "Yes"
+  },
+  {
+    "name": "semgrep",
+    "full-name": "Semgrep",
+    "server-name": "semgrep-ls",
+    "server-url": "https://github.com/returntocorp/semgrep",
+    "installation": "pip install semgrep --user",
+    "debugger": "Not available"
   },
   {
     "name": "serenata",

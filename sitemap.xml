@@ -151,6 +151,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-credo/</loc>
+         <lastmod>2023-06-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-crystal/</loc>
          <lastmod>2023-06-29</lastmod>
          <changefreq>daily</changefreq>
@@ -512,6 +517,11 @@
     </url>
     <url>
          <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-rust-rls/</loc>
+         <lastmod>2023-06-29</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://emacs-lsp.github.io/lsp-mode/page/lsp-semgrep/</loc>
          <lastmod>2023-06-29</lastmod>
          <changefreq>daily</changefreq>
     </url>
