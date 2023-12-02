@@ -71,6 +71,15 @@
     "debugger": "Not available"
   },
   {
+    "name": "bufls",
+    "full-name": "buf-language-server",
+    "server-name": "bufls",
+    "server-url": "https://github.com/bufbuild/buf-language-server",
+    "installation": "go install github.com/bufbuild/buf-language-server/cmd/bufls@latest",
+    "installation-url": "https://github.com/bufbuild/buf-language-server#usage",
+    "debugger": "Not available"
+  },
+  {
     "name": "camel",
     "full-name": "CAMEL",
     "server-name": "camells",
@@ -161,6 +170,15 @@
     "debugger": "Not available"
   },
   {
+    "name": "cypher",
+    "full-name": "Cypher",
+    "server-name": "cypher-language-server",
+    "server-url": "https://github.com/neo4j/cypher-language-support/tree/main/packages/language-server",
+    "installation": "npm install -g @neo4j-cypher/language-server",
+    "installation-url": "https://github.com/neo4j/cypher-language-support/tree/main/packages/language-server#installation",
+    "debugger": "Not available"
+  },
+  {
     "name": "d",
     "full-name": "D",
     "server-name": "serve-d",
@@ -240,7 +258,7 @@
     "name": "eslint",
     "full-name": "ESlint",
     "server-name": "eslint",
-    "server-url": "https://github.com/Microsoft/vscode-eslint",
+    "server-url": "https://github.com/microsoft/vscode-eslint",
     "lsp-install-server": "eslint",
     "debugger": "N/A"
   },
@@ -300,6 +318,15 @@
     "server-url": "https://github.com/golang/tools/tree/master/gopls",
     "installation-url": "https://github.com/golang/tools/tree/master/gopls#installation",
     "debugger": "Yes"
+  },
+  {
+    "name": "golangci-lint-server",
+    "full-name": "golangci-lint",
+    "server-name": "golangci-lint-server",
+    "server-url": "https://github.com/nametake/golangci-lint-langserver",
+    "installation": "go install github.com/nametake/golangci-lint-langserver@latest",
+    "installation-url": "https://github.com/nametake/golangci-lint-langserver#installation",
+    "debugger": "Not available"
   },
   {
     "name": "grammarly",
@@ -405,6 +432,15 @@
     "client-name": "lsp-julia",
     "client-url": "https://github.com/non-Jedi/lsp-julia",
     "installation-url": "https://github.com/JuliaEditorSupport/LanguageServer.jl",
+    "debugger": "Not available"
+  },
+  {
+    "name": "jq",
+    "full-name": "Jq (jq-lsp)",
+    "server-name": "jq-lsp",
+    "server-url": "https://github.com/wader/jq-lsp",
+    "installation": "go install github.com/wader/jq-lsp@master",
+    "installation-url": "https://github.com/wader/jq-lsp#install",
     "debugger": "Not available"
   },
   {
@@ -835,6 +871,15 @@
     "debugger": "Yes"
   },
   {
+      "name": "solidity",
+      "full-name": "nomicfoundation/solidity-language-server",
+      "server-name": "solidity-language-server",
+      "installation": "npx @nomicfoundation/solidity-language-server",
+      "server-url": "https://github.com/NomicFoundation/hardhat-vscode/blob/development/server/README.md",
+      "installation-url": "https://github.com/NomicFoundation/hardhat-vscode/blob/development/server/README.md",
+      "debugger": "Not available"
+  },
+  {
     "name": "sorbet",
     "full-name": "Ruby (Sorbet)",
     "server-name": "sorbet",
@@ -1015,9 +1060,17 @@
     "name": "volar",
     "full-name": "Vue 3",
     "server-name": "volar-language-server",
-    "server-url": "https://github.com/johnsoncodehk/volar",
-    "installation": "npm install -g @volar/vue-language-server",
+    "server-url": "https://github.com/vuejs/language-tools",
+    "installation": "npm install -g @vue/language-server",
     "lsp-install-server": "vue-semantic-server",
+    "debugger": "Not available"
+  },
+  {
+    "name": "wgsl-analyzer",
+    "full-name": "wgsl",
+    "server-name": "wgsl-analyzer",
+    "server-url": "https://github.com/wgsl-analyzer/wgsl-analyzer",
+    "installation": "cargo install --git https://github.com/wgsl-analyzer/wgsl-analyzer wgsl_analyzer",
     "debugger": "Not available"
   },
   {
