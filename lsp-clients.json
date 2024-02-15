@@ -34,12 +34,30 @@
     "debugger": "Not available"
   },
   {
+    "name": "asm",
+    "full-name": "Assembly",
+    "server-name": "asm-lsp",
+    "server-url": "https://github.com/bergercookie/asm-lsp",
+    "installation": "cargo install asm-lsp",
+    "lsp-install-server": "asm-lsp",
+    "debugger": "Not available"
+  },
+  {
     "name": "astro",
     "full-name": "Astro",
     "server-name": "astro-ls",
     "server-url": "https://github.com/withastro/language-tools",
     "installation": "npm i -g @astrojs/language-server",
     "lsp-install-server": "astro-ls",
+    "debugger": "Not available"
+  },
+  {
+    "name": "autotools",
+    "full-name": "Autotools",
+    "server-name": "autotools-language-server",
+    "server-url": "https://github.com/Freed-Wu/autotools-language-server",
+    "installation": "pip install autotools-language-server",
+    "lsp-install-server": "autotools-ls",
     "debugger": "Not available"
   },
   {
@@ -372,6 +390,14 @@
     "debugger": "Not available"
   },
   {
+    "name": "hyuga",
+    "full-name": "Hy",
+    "server-name": "hyuga",
+    "server-url": "https://github.com/sakuraiyuta/hyuga",
+    "installation": "pip install hyuga --user",
+    "debugger": "Not available"
+  },
+  {
     "name": "idris",
     "full-name": "Idris",
     "server-name": "idris2-lsp",
@@ -422,6 +448,15 @@
     "server-url": "https://github.com/microsoft/vscode/tree/main/extensions/json-language-features/server",
     "installation": "Automatic or manual by npm i -g vscode-langservers-extracted",
     "lsp-install-server": "json-ls",
+    "debugger": "Not available"
+  },
+  {
+    "name": "jsonnet",
+    "full-name": "Jsonnet",
+    "server-name": "jsonnet-language-server",
+    "server-url": "https://github.com/grafana/jsonnet-language-server",
+    "installation-url": "https://github.com/grafana/jsonnet-language-server?tab=readme-ov-file#installation",
+    "lsp-install-server": "jsonnet-ls",
     "debugger": "Not available"
   },
   {
@@ -587,10 +622,18 @@
   },
   {
     "name": "nix",
-    "full-name": "Nix",
+    "full-name": "Nix (nixd language server)",
+    "server-name": "nixd",
+    "server-url": "https://github.com/nix-community/nixd",
+    "installation": "nix profile install github:nixos/nixpkgs#nixd",
+    "debugger": "Not available"
+  },
+  {
+    "name": "nix",
+    "full-name": "Nix (rnix language server)",
     "server-name": "rnix-lsp",
     "server-url": "https://github.com/nix-community/rnix-lsp",
-    "installation": "nix-env -i rnix-lsp",
+    "installation": "nix profile install github:nixos/nixpkgs#rnix-lsp",
     "debugger": "Not available"
   },
   {
@@ -1019,6 +1062,15 @@
     "server-name": "vala-language-server",
     "server-url": "https://github.com/benwaffle/vala-language-server",
     "installation": "meson build && ninja -C build install",
+    "debugger": "Not available"
+  },
+  {
+    "name": "verible",
+    "common-group-name": "verilog",
+    "full-name": "Verilog/SystemVerilog",
+    "server-name": "verible-verilog-ls",
+    "server-url": "https://github.com/chipsalliance/verible",
+    "installation": "https://github.com/chipsalliance/verible#installation",
     "debugger": "Not available"
   },
   {
