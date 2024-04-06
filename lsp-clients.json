@@ -829,6 +829,15 @@
     "debugger": "Yes"
   },
   {
+    "name": "qml-ls",
+    "full-name": "QML (Qt Modeling Language)",
+    "server-name": "QML Language Server",
+    "server-url": "https://doc.qt.io/qt-6/qtquick-tool-qmlls.html",
+    "client-name": "lsp-qml",
+    "installation-url": "https://github.com/emacs-lsp/lsp-qml",
+    "debugger": "Not Available"
+  },
+  {
     "name": "r",
     "full-name": "R",
     "server-name": "languageserver",
@@ -1192,6 +1201,14 @@
     "server-url": "https://github.com/redhat-developer/yaml-language-server",
     "installation": "npm install -g yaml-language-server",
     "lsp-install-server": "yamlls",
+    "debugger": "Not available"
+  },
+  {
+    "name": "yang",
+    "full-name": "YANG",
+    "server-name": "yang-lsp",
+    "server-url": "https://github.com/TypeFox/yang-lsp",
+    "installation-url": "https://github.com/TypeFox/yang-lsp/releases",
     "debugger": "Not available"
   },
   {
