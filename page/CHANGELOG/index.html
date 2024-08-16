@@ -1276,6 +1276,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../lsp-csharp-roslyn/" class="md-nav__link">
+        C# (csharp-roslyn)
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../lsp-csharp-ls/" class="md-nav__link">
         C# (csharp-ls)
       </a>
@@ -3734,6 +3748,13 @@
     are sent to the server. This is used by the Haskell language server
     client to work around an <code>lsp-mode</code> parsing quirk that incorrectly
     sends <code>null</code> values instead of <code>false</code> in code action requests.</li>
+<li>Add support for C# via the <a href="https://github.com/dotnet/roslyn/tree/main/src/LanguageServer">Roslyn language
+    server</a>.</li>
+<li>Add basic support for <a href="https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#textDocument_pullDiagnostics">pull
+    diagnostics</a>
+    requests.</li>
+<li>Add <code>lsp-flush-delayed-changes-before-next-message</code> customization
+    point to enforce throttling document change notifications.</li>
 </ul>
 <h2 id="900">9.0.0<a class="headerlink" href="#900" title="Permanent link">#</a></h2>
 <ul>
@@ -4314,7 +4335,7 @@
   <small>
     
       Last update:
-      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">June 24, 2024</span>
+      <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">August 16, 2024</span>
       
     
   </small>
